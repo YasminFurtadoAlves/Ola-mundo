@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozinha</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2p.css">
+    <link rel="stylesheet" href="midia.css">
+</head>
+<body>
+    
+    <div class="logo">
+        <a href=""><img src="chefe-de-cozinha.png" alt=""></a>
+    </div>
+    <div class="saidebar">
+        <nav class="saidebar_naveg">
+            <ul>
+                <li>
+                    <a href="">
+                        <img src="almoco.png" alt=""  style="width: 30px;height: 30px;">
+                        <span>Prato Principal</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span><img src="bolo.png" alt="" style="width: 30px;height: 30px;"></span>
+                        <span>Sobremesa</span>
+                    </a>
+                </li>
+            </ul> 
+        </nav> 
+        <div class="liberdade">
+            <div class="liberdade_cont">
+                <button class="liberdade_botao">
+                    <img class="mais2" src="biblioteca (2).png" alt="">
+                    <span>Biblioteca</span>
+                </button>
+                <img class="mais" src="mais.png" alt="" width="30px" height="20px">  
+            </div>
+            <section class="sec_play">
+                <div class="sec_conteu">
+                    <span class="text">Crie sua primeira receita</span>
+                    <span class="text_sub">É fácil, vem comigo</span>
+                </div>
+                <button class="sec-play_but">
+                    <span>Crie suas receitas</span>
+                </button>
+            </section>
+            <div class="cooKies">
+                <a href="">CooKies</a>
+            </div>
+            <div class="lingua">
+                <button class="lingua_botao">
+                    <img src="planeta-terra (1).png" alt="">
+                    <span>Português do Brasil</span>
+                </button>
+            </div>
+        </div>
+    </div> <!-- Fechamento da div .saidebar -->
+    
+    <main>
+        <div class="main_container">
+            <nav class="header_navi">
+                <div class="navigation">
+                    <button class="arrow-left seta1">
+                        <img src="seta-esquerda.png" width="40" height="30" alt="seta">
+                    </button>
+                    <button class="arrow-left seta2">
+                        <img src="seta-direita.png" width="40" height="30" alt="seta">
+                    </button>
+                    
+                    <div class="header__search">
+                        <img src="lupa.png" alt="">
+                        <input id="search-input" type="text" maxlength="800" placeholder="O que você quer comer hoje?">
+                    </div>
+                    <div class="header__login">
+                        <button class="subscribe">Inscreva-se</button>
+                        <button class="login">Entrar</button>
+                    </div>
+                </div>
+            </nav>
+        
+            <div class="play-container">
+                <div id="result-play">
+                    <div class="play">
+                        <h1 id="greeting"></h1>
+                        <h2 class="session">As melhores experiências vêm no prato</h2>
+                    </div>
+                    <div class="offer_cont">
+                        <div class="offer_list">
+                            <section class="offer_list-item">
+                                <a href="" class="cards">
+                                    <div class="cards">
+                                        <div class="cards_n1" >
+                                            <img src="card1.jpg" alt="">
+                                            <span>Feitos para você</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="cards">
+                                    <div class="cards">
+                                        <div class="cards_n2" >
+                                            <img src="card2.jpg" alt="">
+                                            <span>Cozinha tradicional</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="cards">
+                                    <div class="cards">
+                                        <div class="cards_n3" >
+                                            <img src="card3.jpg" alt="">
+                                            <span>Novidades na cozinha</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="cards">
+                                    <div class="cards">
+                                        <div class="cards_n4" >
+                                            <img src="card4.jpg" alt="">
+                                            <span>Fácil, em menos de 3 min</span>
+                                        </div>   
+                                    </div>
+                                </a>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <div id="result-recipe">
+                    <div class="grid-container">
+                      <div class="recipe-card">
+                        <div class="card-img">
+                          <iframe width="100%" height="200" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+                          <div class="play">
+                            <span class="fa fa-solid fa-play"></span>
+                          </div>
+                        </div>
+                        <div class="card-text">
+                          <a title="O melhor Bolo do mundo" class="recipe-link" href="https://www.youtube.com/watch?v=MjUjRfRcgcg&pp=ygUbdHVkbyBnb3N0b3NvIHJlY2VpdGFzIGJvbG9z">Bolo em 3 min</a>
+                          <span class="recipe-description">3 ingrediente 3 minutos</span>
+                          <span class="recipe-category">Bolo</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+            </div>
+        </div>
+    </main>
+    
+    <footer class="disclaimer-premium">
+        <div class="text">
+            <p class="disclaimer-premium__title">Testar o Premium de graça</p>
+            <p class="disclaimer-premium__subtitle">
+                Inscreva-se para curtir música ilimitada e podcasts só com alguns
+                anúncios. Não precisa de cartão de crédito.
+            </p>
+        </div>
+        <div class="button">
+            <button type="button">Inscreva-se grátis</button>
+        </div>
+    </footer>                 
+<script type="text/javascript" src="./script.js" ></script>
+</body>
+</html>
